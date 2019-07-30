@@ -1,0 +1,211 @@
+/* Needs to be in 100 screen size */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: 'Shadows Into Light', cursive;
+  display: flex;
+  justify-content: center;
+  background-color: #E0FFFF;
+  font-size: 40px;
+}
+
+h3{
+  font-family: 'Shadows Into Light', cursive;
+  display: flex;
+  justify-content: center;
+  background-color: #FFC0CB;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+
+}
+
+img{
+  height: 370px;
+  width: 320px;
+}
+
+.row1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:30px;
+}
+
+.row2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:30px;
+}
+
+.row3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:30px;
+}
+
+.row4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:30px;
+}
+
+.row5{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:30px;
+}
+
+.seoul-tower{
+  height: 450px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.fashion{
+  height: 450px;
+  width: 380px;
+  margin: 10px;
+}
+
+.sixthree{
+  height: 450px;
+  width: 350px;
+  margin-left: 10px;
+}
+
+.hanriver{
+  height: 300px;
+  width: 500px;
+  margin-right: 10px;
+}
+
+
+.love{
+  height: 305px;
+  width: 400px;
+  margin: 10px;
+}
+
+.bts{
+  height: 300px;
+  width: 510px;
+  margin-left: 10px;
+}
+
+.blackpink{
+  height: 305px;
+  width: 490px;
+  margin-right: 10px;
+}
+
+.shaved-ice{
+  height: 305px;
+  width: 430px;
+  margin: 10px;
+}
+
+.palace{
+  height: 305px;
+  width: 480px;
+  margin-left: 10px;
+}
+
+.couple{
+  height: 530px;
+  width: 400px;
+  margin-right: 10px;
+}
+
+.rice-cake{
+  height: 560px;
+  width: 399px;
+  margin: 10px;
+}
+
+.hanbok{
+  height: 530px;
+  width: 390px;
+  margin-left: 10px;
+}
+
+.lotte-tower{
+  height: 530px;
+  width: 400px;
+  margin-right: 10px;
+}
+
+.seoul{
+  width: 590px;
+  margin: 10px;
+}
+
+.busan-tower{
+  height: 520px;
+  width: 450px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width:900px) {
+  h1{
+    font-family: 'Shadows Into Light', cursive;
+    display: flex;
+    justify-content: center;
+    background-color: #D8BFD8;
+  }
+
+  h3{
+    font-family: 'Shadows Into Light', cursive;
+    display: flex;
+    justify-content: center;
+    background-color: #FFE4B5;
+  }
+
+  .row1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:30px;
+  }
+
+  .row2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:30px;
+  }
+
+  .row3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:30px;
+  }
+
+  .row4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:30px;
+  }
+
+  .row5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:30px;
+  }
+
+}
